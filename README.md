@@ -1,14 +1,13 @@
 # Talks
 
-This repository is a collection of all the talks I have held and hopefully will be holding.
-
-Currently, there's only one, but everyone starts somewhere. 🙂
+This repository is a collection of all the talks I have held.
 
 - [2D Graphics with SFML](2018%20-%20Meeting%20C++) - Lightning talk at [Meeting C++ 2018](https://meetingcpp.com/)
+- [Game Development with SFML](2019%20-%20C++%20Usergroup%20Zentralschweiz) - SFML Workshop at the C++ Usergroup Zentralschweiz
 
 ## Contact
 
-If you're interested in hearing me talk more about SFML or have any questions about my previous talk, don't hesitate to reach out to me.
+If you're interested in hearing me talk more about SFML or have any questions about my previous talks, don't hesitate to reach out to me.
 
 - Twitter: [@DarkCisum](https://twitter.com/DarkCisum) (open DMs)
 - E-Mail: eXpl0it3r@sfml-dev.org
