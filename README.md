@@ -4,6 +4,7 @@ This repository is a collection of all the talks I have held.
 
 - [2D Graphics with SFML](2018%20-%20Meeting%20C++) - Lightning talk at [Meeting C++ 2018](https://meetingcpp.com/)
 - [Game Development with SFML](2019%20-%20C++%20Usergroup%20Zentralschweiz) - SFML Workshop at the C++ Usergroup Zentralschweiz
+- [2D Graphics with SFML.Net](2023%20-%20Team%20Meeting) - Brief presentation on SFML.Net
 
 ## Contact
 
@@ -12,6 +13,7 @@ If you're interested in hearing me talk more about SFML or have any questions ab
 - Twitter: [@DarkCisum](https://twitter.com/DarkCisum) (open DMs)
 - E-Mail: eXpl0it3r@sfml-dev.org
 - Chat: [SFML](https://discord.gg/nr4X7Fh), [#include](https://www.includecpp.org/), [cpplang](http://cpplang.slack.com)
+- Website: https://duerrenberger.dev
 
 ## License
 
