@@ -8,11 +8,12 @@ This repository is a collection of all the talks I have held.
 
 ## Contact
 
-If you're interested in hearing me talk more about SFML or have any questions about my previous talks, don't hesitate to reach out to me.
+If you're interested in hearing me talk more about SFML or have any questions about my previous talks, don't hesitate to reach out.
 
+- Fediverse: [@darkcisum@social.swiss](https://swiss.social/@darkcisum)
 - Twitter: [@DarkCisum](https://twitter.com/DarkCisum) (open DMs)
 - E-Mail: eXpl0it3r@sfml-dev.org
-- Chat: [SFML](https://discord.gg/nr4X7Fh), [#include](https://www.includecpp.org/), [cpplang](http://cpplang.slack.com)
+- Chat: [SFML](https://discord.gg/nr4X7Fh), [cpplang](http://cpplang.slack.com)
 - Website: https://duerrenberger.dev
 
 ## License
