@@ -1,0 +1,122 @@
+{
+  "uuid": "c5e5ec45-8b66-41e0-bcb5-4a389768f6e3",
+  "lastMigration": 32,
+  "name": "Demo01",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "d049fd7c-b247-4b3e-b458-9c6fab8daa86",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "login",
+      "responses": [
+        {
+          "uuid": "5b9ddee2-0e9c-456f-8135-dbc70dfd3f6d",
+          "body": "{\n  \"status\": \"success\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "j0zt",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "",
+              "value": "ABC123",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "9a1b543a-1aad-4503-935b-4f9f45a5a13f",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "tccu",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "d049fd7c-b247-4b3e-b458-9c6fab8daa86"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "98949b0b-d155-4a59-aeb0-bfaf10793d4e",
+      "id": "j0zt",
+      "name": "Success",
+      "documentation": "",
+      "value": "{\n  \"status\": \"success\"\n}"
+    },
+    {
+      "uuid": "acd9abce-b7a6-4078-9cc3-d4354995cc6f",
+      "id": "tccu",
+      "name": "Denied",
+      "documentation": "",
+      "value": "{\n  \"status\": \"denied\"\n}"
+    }
+  ],
+  "callbacks": []
+}
